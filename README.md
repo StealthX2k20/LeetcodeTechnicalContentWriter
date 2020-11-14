@@ -1,2 +1,2 @@
 # LeetcodeTechnicalContentWriter
-This repo contains solutions to some of the medium level problems of leetcode which don't have any official solutions.
+This repository contains solutions to some of the medium level problems of leetcode which doesn't have any official editorials.
