@@ -1,6 +1,6 @@
 # Editorial for LeetCode Problem 390 Elimination Game
 
-*Lemma* : After performing the given operation for **M** number of times the remaining segment will be an ArithmeticcProgression with a common difference of **2^M** where **^**
+*Lemma* : After performing the given operation for **M** number of times the remaining segment will be an Arithmetic Progression with a common difference of **2^M** where **^**
 represents power function.
 
 *Proof of Lemma* : Obviously, initially **0** operations are performed so the given sequence is an Arithmetic Progression with a common difference of 1 i.e. 2^0. Now by induction
