@@ -20,7 +20,7 @@ make a similar assertion for the **“right to left”** operation.
 
 Keeping these observations in mind, we can easily make a recursive solution for the given problem.
 
-**Space Complexity : O(log N)**
+**Space Complexity : O(log N)**  
 **Time Complexity : O(log N)**
 
 *Reason for Time Complexity being O(log N)* : The key note here is that the common difference is increasing in terms of ‘powers of 2’ and since this difference can go as high as
