@@ -1,11 +1,11 @@
 # Editorial for LeetCode Problem 390 Elimination Game
 
-*Lemma* : After performing the given operation for M number of times the remaining segment will be an Arithmetic  Progression with a common difference of 2^M where **^**
+*Lemma* : After performing the given operation for **M** number of times the remaining segment will be an ArithmeticcProgression with a common difference of **2^M** where **^**
 represents power function.
 
-*Proof of Lemma* : Obviously, initially 0 operations are performed so the given sequence is an Arithmetic Progression with a common difference of 1 i.e. 2^0. Now by induction we
-can say that since the (M-1)th operation resulted in a common difference of 2^(M-1) and since we are removing alternating elements in the Mth operation, thereby doubling the
-common difference between the new adjacent elements.
+*Proof of Lemma* : Obviously, initially **0** operations are performed so the given sequence is an Arithmetic Progression with a common difference of 1 i.e. 2^0. Now by induction
+we can say that since the **(M-1)th** operation resulted in a common difference of **2^(M-1)** and since we are removing alternating elements in the **Mth** operation, thereby
+doubling the common difference between the new adjacent elements.
 
 Now, I will try to explain my recursive approach by dividing my solution into 2 cases:
 
