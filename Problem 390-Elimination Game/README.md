@@ -1,4 +1,4 @@
-Editorial for LeetCode Problem 390 Elimination Game
+#Editorial for LeetCode Problem 390 Elimination Game
 
 Lemma : After performing the given operation for M number of times the remaining segment will be an Arithmetic  Progression with a common difference of 2^M
 Where ‘^’ represents power function.
