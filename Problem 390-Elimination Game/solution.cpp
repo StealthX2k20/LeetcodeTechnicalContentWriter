@@ -1,5 +1,5 @@
 /*
-Time Complexity : O(logN)
+Time Complexity : O(log N)
 Space Complexity : O(log N)
 */
 
